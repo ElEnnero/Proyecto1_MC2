@@ -1,8 +1,6 @@
 # Manual Tecnico Proyecto MC2
 
-
-
-En este proyecto de Matemática para la Computación 2, orientado al tema de algoritmos de búsqueda a lo ancho y a lo largo. os cuales son fundamentales en el ámbito de la ciencia de la computación y la inteligencia artificial. Estos algoritmos son utilizados en una amplia variedad de aplicaciones, desde la resolución de problemas en grafos hasta la optimización de rutas en sistemas de navegación. Al tener libertad de codificar en el lenguaje más cómodo para el grupo, se desarrolló por medio de Python, lo cual nos llevo a utilizar diferentes librerías para llevar a cabo el código, toda nuestra sintaxis está organizada para el desarrollo optimo de la aplicación.
+En este proyecto de Matemática para la Computación 2, orientado al tema de algoritmos de búsqueda a lo ancho y a lo largo. los cuales son fundamentales en el ámbito de la ciencia de la computación y la inteligencia artificial. Estos algoritmos son utilizados en una amplia variedad de aplicaciones, desde la resolución de problemas en grafos hasta la optimización de rutas en sistemas de navegación. Al tener libertad de codificar en el lenguaje más cómodo para el grupo, se desarrolló por medio de Python, lo cual nos llevo a utilizar diferentes librerías para llevar a cabo el código, toda nuestra sintaxis está organizada para el desarrollo optimo de la aplicación.
 
 Nuestro código es un programa por medio de Python en la cual se utiliza la biblioteca networkx para crear y visualizar gráficos, y la biblioteca matplotlib para dibujar estos gráficos en una interfaz gráfica de usuario (GUI) utilizando tkinter. En resumen, este programa permite al usuario construir un grafo interactivo utilizando una interfaz gráfica de usuario, agregar vértices y aristas, y realizar búsquedas en anchura y en profundidad en el grafo.
 
