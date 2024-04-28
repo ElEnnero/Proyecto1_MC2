@@ -1,21 +1,23 @@
+#las librerías
 from matplotlib.figure import Figure
 import networkx as nx
 import tkinter as tk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
+#Crea una gráfica que almacenará los nodos y las vertices
 G = nx.Graph()
-root = tk.Tk()
+root = tk.Tk()#crea la la ventana y le pone el título
 root.title("Algoritmo de búsqueda")
 
 # Función para agregar un vértice
 def add_vertex():
     G.add_node(vertex_entry.get())
-    draw_graph()
+    draw_graph()#la dibuja
 
 # Función para agregar una arista
 def add_edge():
     G.add_edge(edge_entry_1.get(), edge_entry_2.get())
-    draw_graph()
+    draw_graph()#la dibuja
 
 
 # Función para dibujar el gráfico
