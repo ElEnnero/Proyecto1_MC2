@@ -9,12 +9,12 @@ En resumen, este programa permite al usuario construir un grafo interactivo util
 ### Objetivos
 
 #### Objetivo General
-1. Comprender los metodos que se usan para determinar cual es el mejor camino por medio de los algoritmos de busqueda.
+1. Exponer los metodos que se usan para determinar cual es el mejor camino por medio de los algoritmos de busqueda.
 
 #### Objetivos Especificos
-1. Implementar algoritmos de búsqueda a lo largo y a lo ancho.
+1. Explicar la manera de implementar los algoritmos de búsqueda a lo largo y a lo ancho.
 2. Aplicar los metodos a una sintaxis de Phyton por medio de una interfaz grafica interactiva, por la cual observaremos como es que funciona.
-3. Comporender como funcionan los dos algoritmos en mismas situaciones o situaciones muy extensas.
+3. Comprender como funcionan los dos algoritmos en situaciones iguales o más extensas.
 
 
 ### Logica del Sistema
