@@ -79,7 +79,7 @@ En resumen, este programa permite al usuario construir un grafo interactivo util
    
    - Inicia el bucle principal de la interfaz gráfica de tkinter, donde se espera que el usuario interactúe con la aplicación.
 
-
+### [Video Explicativo ](https://youtu.be/nkzDdbQEhLQ?si=Q_IHvOQjbO2OCVUC)
 
 
 
