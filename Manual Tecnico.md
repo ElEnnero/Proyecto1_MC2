@@ -19,7 +19,9 @@ En resumen, este programa permite al usuario construir un grafo interactivo util
 
 ### Logica del Sistema
 
-1. *Importación de bibliotecas*:
+
+1. ![Importación de bibliotecas](/images/t1.png)
+   *Importación de bibliotecas*:
    python
    from matplotlib.figure import Figure
    import networkx as nx
@@ -31,7 +33,9 @@ En resumen, este programa permite al usuario construir un grafo interactivo util
    - tkinter as tk: Importa la biblioteca tkinter con el alias tk, que se utiliza para crear la interfaz gráfica de usuario.
    - matplotlib.backends.backend_tkagg: Importa la clase FigureCanvasTkAgg de matplotlib.backends, que se utiliza para mostrar figuras de matplotlib en una ventana de tkinter.
 
-2. *Inicialización del grafo y la interfaz gráfica*:
+2. ![Inicialización del grafo y la interfaz gráfica](/images/t2.png)
+   *Inicialización del grafo y la interfaz gráfica*:
+
    python
    G = nx.Graph()
    root = tk.Tk()
@@ -40,7 +44,8 @@ En resumen, este programa permite al usuario construir un grafo interactivo util
    - Se crea un objeto nx.Graph() que representa un grafo vacío.
    - Se crea una ventana de tkinter con el título "Algoritmo de búsqueda".
 
-3. *Funciones para agregar vértices y aristas al grafo*:
+3. ![Funciones para agregar vértices y aristas al grafo](/images/t21.png)
+   *Funciones para agregar vértices y aristas al grafo*:
    python
    def add_vertex():
        # Código para agregar un vértice al grafo
@@ -51,14 +56,16 @@ En resumen, este programa permite al usuario construir un grafo interactivo util
    - add_vertex(): Agrega un vértice al grafo utilizando el texto ingresado en vertex_entry.
    - add_edge(): Agrega una arista al grafo utilizando los textos ingresados en edge_entry_1 y edge_entry_2.
 
-4. *Función para dibujar el grafo*:
+4. ![Función para dibujar el grafo](/images/t22.png)
+   *Función para dibujar el grafo*:
    python
    def draw_graph(bfs_edges=None, dfs_edges=None):
        # Código para dibujar el grafo con opciones de resaltar aristas para BFS y DFS
    
    - draw_graph(): Dibuja el grafo en el lienzo (canvas). Opcionalmente, puede resaltar las aristas de un recorrido en anchura (BFS) o en profundidad (DFS).
 
-5. *Funciones para realizar la búsqueda en anchura y en profundidad*:
+5. ![Funciones para realizar la búsqueda en anchura y en profundidad](/images/t3.png) ![Funciones para realizar la búsqueda en anchura y en profundidad](/images/t4.png)
+   *Funciones para realizar la búsqueda en anchura y en profundidad*:
    python
    def show_bfs():
        # Código para realizar una búsqueda en anchura y dibujar el resultado
@@ -70,10 +77,18 @@ En resumen, este programa permite al usuario construir un grafo interactivo util
    - show_dfs(): Realiza una búsqueda en profundidad desde el vértice ingresado y resalta las aristas encontradas.
 
 6. *Creación de la interfaz gráfica*:
-   - Se crean entradas (Entry) para ingresar vértices y aristas, botones (Button) para agregar vértices y aristas, y botones para realizar búsquedas en anchura y en profundidad.
-   - Se crea una figura (Figure) de matplotlib y se agrega un lienzo (canvas) de tkinter para dibujar el grafo.
 
-7. *Ejecución del bucle principal de la interfaz gráfica*:
+   1.  ![Creación de las entradas de los vértices](/images/t5.png)
+   *Creación de las entradas de los vértices*
+   - Se crean etiquetas (Label) para indicar qué realizar, entradas (Entry) para ingresar vértices y aristas, botones (Button) para agregar vértices.
+   2. ![Creación del lienzo para el grafo](/images/t9.png)
+   *Creación del lienzo para el grafo*
+   - Se crea una figura (Figure) de *matplotlib* y se agrega un lienzo (canvas) de *tkinter* para dibujar el grafo.
+   3. ![Creación de los botones de búsqueda](/images/t6.png)
+   *Creación de los botones de búsqueda*
+   - Se cran los botones para realizar las búsquedas en anchura y en profundidad gracias a que llaman las funciones que realizan estas acciones.
+   4. ![Ejecución del bucle principal de la interfaz gráfica](/images/t7.png)
+   *Ejecución del bucle principal de la interfaz gráfica*:
    python
    root.mainloop()
    
