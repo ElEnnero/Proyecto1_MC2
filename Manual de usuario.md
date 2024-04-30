@@ -1,13 +1,13 @@
 # Manual de Usuario
-Este programa permite al usuario interactuar con grafos realizando búsquedas con profundidad y anchura, presentando de manera gráfica, descriptiva e intuitiva el las posiciones en las cuales se deben ingresar los datos y mostrando sobre el grafo la búsqueda realizada.
+Este programa permite al usuario interactuar con grafos realizando búsquedas con profundidad y anchura, presentando de manera gráfica, descriptiva e intuitiva las posiciones en las cuales se deben ingresar los datos y mostrando sobre el grafo la búsqueda realizada.
 
 #### Objetivo General
-1. Permitir al Usuario comprender de mejor manera el funcionamiento del programa que implmentea los método de búsqueda por profundida y anchura.
+1. Permitir al usuario comprender de mejor manera el funcionamiento del programa que implementa los métodos de búsqueda por profundidad y anchura.
 
 #### Objetivos Especificos
 1. Mostrar paso a paso el funcionamiento del programa creado a partir de Python.
-2. Permitir una mejor comprensión de los métodos de búsqueda por medio de la grafica 
-3. Demostrar cómo se pueden implementar los metodos de búsqueda dentro de los lenguajes de programación.
+2. Permitir una mejor comprensión de los métodos de búsqueda por medio de la gráfica.
+3. Demostrar cómo se pueden implementar los métodos de búsqueda dentro de los lenguajes de programación.
 
 ### Flujo de las funcionalidades del programa
 1. ![](/images/u1.png)
